@@ -2,7 +2,8 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Sidebar from "./sidebar/Sidebar";
 import Navbar from "./navbar/Navbar";
-import "../pages/home/home.css";
+// import "../pages/home/home.css";
+import "../components/home.css";
 
 export default function MainLayout({ login, setLogin }) {
   console.log(login);
